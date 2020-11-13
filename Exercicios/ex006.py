@@ -1,0 +1,5 @@
+n = int(input('Digite um número: '))
+s = int(n+n)
+m = int(n*3)
+r = pow(n, (1/2))
+print('O dobro deste número é: {}\nO triplo deste número é: {}\nA raiz quadrada deste número é: {:.2f}'.format(s, m, r))
